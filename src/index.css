@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.fp-watermark {
+    display: none;
+}
+html, body, #root {height: 100%;}
+
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.has-tooltip {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.has-tooltip:hover .tooltip {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    bottom: 32px;
+    width: auto
+}
+* {user-select: none;}
