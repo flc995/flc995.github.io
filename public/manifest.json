@@ -1,8 +1,16 @@
 {
   "short_name": "Florin Cotovanu",
-  "name": "Florin Cotovanu",
+  "name": "Florin Cotovanu | Full Stack Developer",
+  "description": "Personal portfolio of Florin Cotovanu, a Full Stack Developer based in Rome, Italy.",
+  "icons": [
+    {
+      "src": "img/favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#18181b",
+  "background_color": "#18181b"
 }
