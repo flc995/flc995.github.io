@@ -21,7 +21,7 @@ export function ThemeSwitcher() {
     }, [])
 
     return(
-        <div className='absolute right-0 bottom-0 m-4 z-10'>
+        <div className='fixed right-4 bottom-4 z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-gray-200 dark:border-zinc-700'>
             <div className='inline-flex relative items-center'>
                 <span className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300 mr-2">Dark Mode</span>
                 <label className="inline-flex relative items-center cursor-pointer">

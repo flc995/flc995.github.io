@@ -17,18 +17,26 @@ html, body, #root {height: 100%;}
     position: absolute;
     display: none;
     pointer-events: none;
-    white-space: nowrap;
+    white-space: normal;
+    z-index: 50;
+}
+@media (min-width: 640px) {
+    .tooltip {
+        white-space: nowrap;
+    }
 }
 .has-tooltip {
     position: relative;
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
 }
 .has-tooltip:hover .tooltip {
     display: block;
     opacity: 1;
     position: absolute;
     bottom: 32px;
-    width: auto
+    left: 0;
+    width: max-content;
+    max-width: calc(100vw - 3rem);
 }
 * {user-select: none;}
