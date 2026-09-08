@@ -54,19 +54,17 @@ export default function Bio() {
                         </div>
 
                         <div className="flex flex-col justify-center">
-                            <p className="!text-[25px] leading-[1.6] text-left dark:text-white">
-                                Full-Stack Dev at{' '}
-                                <a href="https://weareplanet.com" target="_blank" rel="noreferrer" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 underline decoration-regal-blue hover:decoration-pink-600">Planet</a>
-                                {' '}. Creator of{' '}
-                                <a href="https://konnichiwapp.com" target="_blank" rel="noreferrer" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 underline decoration-regal-blue hover:decoration-pink-600">Konnichiwapp</a>
-                                . Previously Full-Stack Dev at{' '}
-                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">App to you</span>
-                                {' '}(2019 – 2022), Web Dev at{' '}
-                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">Sportincontro</span>
-                                {' '}(2017 – 2018), WordPress Dev at{' '}
-                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">Dobrain Web Agency</span>
-                                {' '}(2016 – 2017), and Web Dev at{' '}
-                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">Weasy Web</span>
+                            <p className="!text-[25px] leading-[1.6] text-left dark:text-white lowercase">
+                                full-stack dev at{' '}
+                                <a href="https://weareplanet.com" target="_blank" rel="noreferrer" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 underline decoration-regal-blue hover:decoration-pink-600">Planet</a>{' '}, creator of{' '}
+                                <a href="https://konnichiwapp.com" target="_blank" rel="noreferrer" className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 underline decoration-regal-blue hover:decoration-pink-600">Konnichiwapp</a>{' '}, previously full-stack dev at{' '}
+                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">app to you</span>
+                                {' '}(2019 – 2022), web dev at{' '}
+                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">sportincontro</span>
+                                {' '}(2017 – 2018), wordpress dev at{' '}
+                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">dobrain web agency</span>
+                                {' '}(2016 – 2017), and web dev at{' '}
+                                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-regal-blue to-pink-600 transition-all hover:to-regal-blue hover:from-pink-600 cursor-default">weasy web</span>
                                 {' '}(2015).
                             </p>
                         </div>
